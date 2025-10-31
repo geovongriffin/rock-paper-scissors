@@ -1,4 +1,4 @@
-# 🎮 Rock, Paper, Scissors — JavaScript Game Logic (27-Stu_Mini-Project)
+# 🎮 Rock, Paper, Scissors — JS Game Logic (Mini Project)
 
 Work with a partner to build a fully interactive **Rock, Paper, Scissors** game using JavaScript.  
 Your program will track scores, use loops, and interact with the player using browser prompts and alerts.
@@ -68,3 +68,4 @@ Your program will track scores, use loops, and interact with the player using br
 - [ ] Asks if player wants to continue  
 - [ ] Displays a final stats summary when the player quits  
 - [ ] (Bonus) Adds win percentage or persistent stats  
+
