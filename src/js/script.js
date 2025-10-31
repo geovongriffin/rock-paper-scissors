@@ -42,7 +42,7 @@ function playGame() {
     while (!validOptions.includes(playerChoice)) {
         let input = window.prompt("Make your choice! (R, P, or S)");
         if (input === null) {
-            window.alert("Appreciate your time playing.")
+            window.alert("Thanks for playing!")
             showStats();
             return;
         }
@@ -104,14 +104,14 @@ function showStats() {
     const total = playerProfile.wins + playerProfile.losses + playerProfile.ties;
 
     window.alert(
-        "-- Session Statistics -- \n \n" +
+        "-- Session Statistics -- \n" +
         "Total Games: " + total + "\n" +
         "Wins: " + playerProfile.wins + "\n" +
         "Losses: " + playerProfile.losses + "\n" +
         "Ties: " + playerProfile.ties + "\n \n" +
-        "-- Choices -- \n" +
         "Rock: " + playerProfile.choices.rock + "\n" +
         "Paper: " + playerProfile.choices.paper + "\n" +
         "Scissors: " + playerProfile.choices.scissors
     );
+
 }
