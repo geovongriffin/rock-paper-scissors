@@ -49,7 +49,7 @@ body br { margin: 4px; }
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 8px; }
+    gap: 12px; }
 button {
     padding: 16px 32px;
     width: auto;
@@ -71,4 +71,5 @@ button:active {
     border: 1px solid transparent;
     background: #ccc;
     transform: translate(0, 2px); }
+
 
