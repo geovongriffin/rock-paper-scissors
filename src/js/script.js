@@ -104,7 +104,7 @@ function showStats() {
     const total = playerProfile.wins + playerProfile.losses + playerProfile.ties;
 
     window.alert(
-        "-- Session Statistics -- \n" +
+        "-- Session Statistics -- \n \n" +
         "Total Games: " + total + "\n" +
         "Wins: " + playerProfile.wins + "\n" +
         "Losses: " + playerProfile.losses + "\n" +
@@ -115,3 +115,4 @@ function showStats() {
     );
 
 }
+
